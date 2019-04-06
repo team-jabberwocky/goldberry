@@ -7,7 +7,7 @@ import "./index.css";
 import { ApolloProvider } from "react-apollo";
 
 const client = new ApolloClient({
-  uri: "https://bombadil-api.jabberwocky.team/",
+  uri: "https://bombadil-api.herokuapp.com/",
 });
 
 ReactDOM.render(
